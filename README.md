@@ -1,35 +1,41 @@
 # 📊 Kimia Farma Performance Analytics
 
-Proyek ini merupakan bagian dari **Project-Based Internship: Big Data Analytics di Kimia Farma** melalui platform **Rakamin Academy**.  
-Tujuan proyek ini adalah untuk menganalisis kinerja bisnis Kimia Farma berdasarkan data transaksi periode **2020–2023** menggunakan **BigQuery** dan **Google Looker Studio**.
+Proyek ini merupakan bagian dari **Project-Based Internship: Big Data Analytics di Kimia Farma** melalui platform **[Rakamin Academy](https://www.rakamin.com/)**.  
+Tujuan utama proyek ini adalah untuk **menganalisis kinerja bisnis Kimia Farma** berdasarkan data transaksi periode **2020–2023** menggunakan **Google BigQuery** dan **Google Looker Studio**.
 
 ---
 
 ## 🏢 Tentang Kimia Farma
 
-**Kimia Farma** adalah perusahaan industri farmasi pertama di Indonesia, didirikan oleh Pemerintah Hindia Belanda pada tahun 1817 dengan nama *NV Chemicalien Handle Rathkamp & Co.*  
-Pada tahun 1958, pemerintah Indonesia menasionalisasi perusahaan-perusahaan farmasi Belanda menjadi **Perusahaan Negara Farmasi Bhinneka Kimia Farma**.  
-Kemudian, pada 16 Agustus 1971, bentuk badan hukum diubah menjadi **PT Kimia Farma (Persero)** yang hingga kini menjadi salah satu pelaku utama di industri farmasi nasional.
+**Kimia Farma** merupakan perusahaan industri farmasi pertama di Indonesia, didirikan oleh Pemerintah Hindia Belanda pada tahun 1817 dengan nama *NV Chemicalien Handle Rathkamp & Co.*  
+Pada tahun 1958, Pemerintah Republik Indonesia menasionalisasi perusahaan-perusahaan farmasi Belanda menjadi **Perusahaan Negara Farmasi Bhinneka Kimia Farma**.  
+Kemudian, pada **16 Agustus 1971**, bentuk badan hukum diubah menjadi **PT Kimia Farma (Persero)** yang hingga kini menjadi salah satu pelaku utama di industri farmasi nasional.
 
 ---
 
 ## 🎯 Deskripsi Proyek
 
-Proyek ini berfokus pada analisis data bisnis Kimia Farma untuk menilai performa penjualan, persebaran cabang, serta kepuasan pelanggan berdasarkan data transaksi yang tersedia di **Google BigQuery**.  
-Dataset mencakup informasi transaksi, produk, pelanggan, dan rating cabang dari tahun **2020 hingga 2023**.  
+Proyek ini berfokus pada analisis performa bisnis Kimia Farma, meliputi:
+- Evaluasi tren penjualan antar tahun  
+- Analisis persebaran penjualan per provinsi  
+- Hubungan antara rating cabang dan rating transaksi  
 
-### Problem Statement
+Dataset dianalisis menggunakan **Google BigQuery** untuk pengolahan data dan **Google Looker Studio** untuk visualisasi interaktif.  
+
+### 🧩 Problem Statement
 1. Bagaimana tren penjualan Kimia Farma dari tahun 2020–2023?  
 2. Provinsi mana yang memberikan kontribusi penjualan terbesar?  
 3. Apakah terdapat hubungan antara rating cabang dan rating transaksi?
 
 ---
 
-## 🧩 Tools & Teknologi
-- **BigQuery** – untuk pengolahan data dan SQL query  
-- **Google Looker Studio** – untuk visualisasi dan dashboard  
-- **Python (Pandas, NumPy, Seaborn, Matplotlib)** – untuk eksplorasi data tambahan  
-- **Excel** – untuk validasi data dan agregasi awal  
+## ⚙️ Tools & Teknologi
+| Tools | Fungsi |
+|-------|---------|
+| **Google BigQuery** | Pengolahan data & SQL query |
+| **Google Looker Studio** | Visualisasi data & dashboard |
+| **Python** *(Pandas, NumPy, Seaborn, Matplotlib)* | Eksplorasi dan analisis data tambahan |
+| **Microsoft Excel** | Validasi dan agregasi data awal |
 
 ---
 
@@ -56,37 +62,41 @@ Dataset mencakup informasi transaksi, produk, pelanggan, dan rating cabang dari 
 
 ## 📈 Insight Utama
 
-Dari proyek ini diperoleh beberapa insight penting sebagai berikut:
+Beberapa insight penting yang diperoleh dari analisis ini antara lain:
 
-1. **Tren Penjualan**  
-   Kinerja penjualan dari tahun 2020 hingga 2023 menunjukkan tren yang relatif stagnan.  
+1. **📉 Tren Penjualan (2020–2023)**  
+   Kinerja penjualan menunjukkan tren yang relatif stagnan.  
    Diperlukan strategi pemasaran dan operasional yang lebih efektif untuk meningkatkan pertumbuhan penjualan tahunan.
 
-2. **Distribusi Penjualan Berdasarkan Provinsi**  
-   Provinsi **Jawa Barat** mencatat penjualan tertinggi dengan kontribusi terbesar terhadap total pendapatan nasional Kimia Farma.  
-   Hal ini menunjukkan potensi pasar yang kuat di wilayah tersebut.
+2. **📊 Distribusi Penjualan Berdasarkan Provinsi**  
+   Provinsi **Jawa Barat** memiliki kontribusi tertinggi terhadap total penjualan nasional.  
+   Hal ini menandakan potensi pasar yang signifikan di wilayah tersebut.
 
-3. **Perbandingan Rating Cabang dan Rating Transaksi**  
-   Cabang dengan rating tinggi tidak selalu memiliki rating transaksi yang sebanding.  
-   Diperlukan peningkatan kualitas pelayanan dan pengalaman pelanggan untuk memperkuat kepuasan konsumen secara menyeluruh.
+3. **⭐ Perbandingan Rating Cabang dan Rating Transaksi**  
+   Cabang dengan rating tinggi tidak selalu diikuti oleh rating transaksi yang baik.  
+   Diperlukan peningkatan kualitas pelayanan dan pengalaman pelanggan secara menyeluruh.
+
+> 🔗 Lihat dashboard interaktif: [Kimia Farma Dashboard – Google Looker Studio](https://lookerstudio.google.com/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a)
 
 ---
 
 ## 👨‍💻 Tentang Pembuat
 
-Saya **Dwi Budi Setyonugroho**, lulusan S1 Teknik Geologi yang memiliki ketertarikan kuat di bidang **Data Analytics**.  
-Saat ini saya sedang menyelesaikan **IBM Data Analyst Professional Certificate** di Coursera dan memiliki langganan tahunan untuk terus memperdalam keahlian di bidang ini.  
+Saya **Dwi Budi Setyonugroho**, lulusan **S1 Teknik Geologi** dengan ketertarikan mendalam di bidang **Data Analytics**.  
+Saat ini sedang menyelesaikan **IBM Data Analyst Professional Certificate** di Coursera, dengan langganan tahunan untuk terus memperdalam keahlian di bidang ini.  
 
-Saya menguasai:
-- **Advanced Excel**
-- **SQL** (JOINs, Aggregate, Subqueries, CTE)
-- **Python** (Pandas, NumPy, Seaborn, Matplotlib)
-- **Dashboarding Tools**: Google Looker Studio, IBM Cognos Analytics, Power BI
+### 🔧 Keahlian Utama
+- **Advanced Excel**  
+- **SQL** (JOINs, Aggregate, Subqueries, CTE)  
+- **Python** (Pandas, NumPy, Seaborn, Matplotlib)  
+- **Dashboarding Tools**: Google Looker Studio, IBM Cognos Analytics, Power BI  
 
-Saya berkomitmen untuk mengubah data menjadi **insight strategis** yang mendukung pengambilan keputusan berbasis bukti.
+Saya memiliki **passion yang kuat di bidang Data Analytics**, terutama dalam menggali pola tersembunyi di balik data untuk menghasilkan insight yang berdampak nyata pada pengambilan keputusan bisnis.  
+Bagi saya, menjadi **Data Analyst** bukan hanya tentang angka, tetapi tentang **mengubah data menjadi cerita yang memandu strategi dan inovasi**.
 
 ---
 
 ## 📜 Lisensi
+
 Proyek ini menggunakan **MIT License**.  
-Lihat file [LICENSE](./LICENSE) untuk detail lebih lanjut.
+Lihat file [LICENSE](./LICENSE) untuk informasi lebih lanjut.
