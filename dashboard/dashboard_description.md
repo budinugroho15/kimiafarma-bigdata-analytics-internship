@@ -1,45 +1,58 @@
-# 📊 Deskripsi Dashboard — Kimia Farma Performance Analytics
+# 📊 Dashboard Description – Kimia Farma Performance Analytics
 
-Dashboard ini dibuat menggunakan **Google Looker Studio** untuk menganalisis kinerja bisnis Kimia Farma berdasarkan data transaksi periode **2020–2023**.  
-Berikut adalah komponen visualisasi utama yang terdapat dalam dashboard:
-
----
-
-### 1. **Sales Trend (2020–2023)** — *Line Chart*  
-Menampilkan total **Net Sales Kimia Farma** dari tahun 2020 hingga 2023.  
-Tujuan: mengidentifikasi tren pertumbuhan atau stagnasi penjualan dari tahun ke tahun.
+Dashboard ini dibuat menggunakan **Google Looker Studio** dan menampilkan analisis kinerja bisnis Kimia Farma periode **2020–2023**.  
+Dashboard membantu visualisasi tren penjualan, distribusi cabang, dan kepuasan pelanggan.
 
 ---
 
-### 2. **Top 10 Total Transaksi di Setiap Provinsi** — *Stacked Bar Chart*  
-Menunjukkan **sepuluh provinsi dengan total transaksi tertinggi**.  
-Tujuan: mengetahui wilayah dengan aktivitas transaksi paling aktif.
+## 1. Line Chart – Net Sales 2020–2023
+Menampilkan tren **total Net Sales** Kimia Farma dari tahun ke tahun.  
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
+
+**Insight:** Penjualan relatif stagnan dari tahun 2020–2023. Diperlukan strategi pemasaran dan operasional lebih efektif.
 
 ---
 
-### 3. **Top 10 Net Sales di Setiap Provinsi** — *Stacked Bar Chart*  
-Memvisualisasikan **sepuluh provinsi dengan nilai penjualan (Net Sales) tertinggi**.  
-Tujuan: mengevaluasi kontribusi penjualan per wilayah dan mengidentifikasi pasar potensial.
+## 2. Stacked Bar Chart – Top 10 Total Transaksi per Provinsi
+Menampilkan **Top 10 provinsi** berdasarkan jumlah transaksi.  
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
+
+**Insight:** Provinsi Jawa Barat memiliki jumlah transaksi tertinggi, menunjukkan pasar yang besar.
 
 ---
 
-### 4. **Top 5 Cabang dengan Rating Cabang Tertinggi & Rating Transaksi Terendah** — *Clustered Bar Chart*  
-Menunjukkan **lima cabang dengan rating pelayanan tinggi namun rating transaksi rendah**.  
-Tujuan: mengidentifikasi ketidaksesuaian antara persepsi kualitas cabang dan pengalaman pelanggan saat transaksi.
+## 3. Stacked Bar Chart – Top 10 Net Sales per Provinsi
+Menampilkan **Top 10 provinsi** berdasarkan total penjualan bersih (Net Sales).  
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
+
+**Insight:** Penjualan terbesar juga berasal dari Jawa Barat, memperkuat potensi pasar di provinsi ini.
 
 ---
 
-### 5. **Persebaran Net Profit di Setiap Provinsi** — *Geo Chart*  
-Memetakan **total Net Profit di seluruh provinsi Indonesia**.  
-Tujuan: memahami distribusi profitabilitas cabang secara geografis.
+## 4. Clustered Bar Chart – Top 5 Cabang (Rating Cabang vs Rating Transaksi)
+Membandingkan **rating cabang** dengan **rating transaksi** untuk 5 cabang teratas.  
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
+
+**Insight:** Rating cabang tinggi tidak selalu sejalan dengan rating transaksi. Perlu perbaikan pelayanan pelanggan.
 
 ---
 
-### 6. **Persebaran Net Sales, Net Profit, & Total Transaksi di Setiap Provinsi** — *Pie Chart*  
-Menunjukkan proporsi kontribusi **Net Sales, Net Profit, dan Total Transaksi** di setiap provinsi.  
-Tujuan: memberikan gambaran visual terhadap keseimbangan kinerja antar wilayah.
+## 5. Geo Chart – Total Net Profit per Provinsi
+Menampilkan persebaran **total Net Profit** di seluruh provinsi.  
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_ctoovwmoxd)  
+
+**Insight:** Geo Chart memudahkan identifikasi wilayah dengan profit tinggi dan area yang perlu peningkatan.
 
 ---
 
-📍 **Link Dashboard:**  
-[Google Looker Studio Dashboard](https://lookerstudio.google.com/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a)
+## 6. Pie Chart – Persebaran Net Sales, Net Profit & Total Transaksi per Provinsi
+Menampilkan distribusi **Net Sales, Net Profit, dan Total Transaksi** dalam bentuk persentase per provinsi.  
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_wwtklrxpxd)  
+
+**Insight:** Memberikan gambaran keseluruhan kontribusi tiap provinsi terhadap penjualan dan profit perusahaan.
+
+---
+
+## ⚡ Catatan
+- Dashboard ini bersifat interaktif. Gunakan filter dan kontrol untuk eksplorasi data lebih mendalam.  
+- Semua visualisasi dihubungkan dengan **BigQuery** sebagai sumber data utama.
