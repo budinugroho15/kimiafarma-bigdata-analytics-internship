@@ -37,6 +37,21 @@ Semua dataset digabung dan dianalisis untuk menghasilkan tabel utama:
 
 ## 🗂️ Struktur Repository
 
+- **📂 [sql/](./sql)**
+  - [01_import_dataset.sql](./sql/01_import_dataset.sql)
+  - [02_create_kf_analisa.sql](./sql/02_create_kf_analisa.sql)
+  - [03_data_check_validation.sql](./sql/03_data_check_validation.sql)
+  - [04_additional_queries.sql](./sql/04_additional_queries.sql)
+- **📂 [dashboard/](./dashboard)**
+  - [looker_dashboard_screenshot.png](./dashboard/looker_dashboard_screenshot.png)
+  - [dashboard_link.txt](./dashboard/dashboard_link.txt)
+- **📂 [documentation/](./documentation)**
+  - [insight_summary.md](./documentation/insight_summary.md)
+  - [project_steps.txt](./documentation/project_steps.txt)
+  - [presentation_link.txt](./documentation/presentation_link.txt)
+- **[README.md](./README.md)**
+- **LICENSE (optional)**
+
 ---
 
 ## 📊 Hasil Akhir
