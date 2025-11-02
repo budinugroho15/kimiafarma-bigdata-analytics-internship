@@ -41,7 +41,7 @@ Dataset mencakup informasi transaksi, produk, pelanggan, dan rating cabang dari 
 │   └── [pembuatan_tabel_kf_analisa.sql](./sql/pembuatan_tabel_kf_analisa.sql)  
 │  
 ├── 📂 [dashboard/](./dashboard)  
-│   ├── [looker_dashboard_screenshot.png](./dashboard/looker_dashboard_screenshot.png)  
+│   ├── [dashboard_complete.pdf](./dashboard/dashboard_complete.pdf)  
 │   ├── [dashboard_link.txt](./dashboard/dashboard_link.txt)  
 │   └── [dashboard_description.md](./dashboard/dashboard_description.md)  
 │  
