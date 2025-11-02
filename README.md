@@ -65,18 +65,24 @@ Dataset dianalisis menggunakan **Google BigQuery** untuk pengolahan data dan **G
 Beberapa insight penting yang diperoleh dari analisis ini antara lain:
 
 1. **📉 Tren Penjualan (2020–2023)**  
-   Kinerja penjualan menunjukkan tren yang relatif stagnan.  
-   Diperlukan strategi pemasaran dan operasional yang lebih efektif untuk meningkatkan pertumbuhan penjualan tahunan.
+   Kinerja penjualan Kimia Farma menunjukkan tren yang relatif stagnan.  
+   🔗 [Lihat Line Chart Net Sales 2020–2023](https://lookerstudio.google.com/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/1M)  
 
 2. **📊 Distribusi Penjualan Berdasarkan Provinsi**  
    Provinsi **Jawa Barat** memiliki kontribusi tertinggi terhadap total penjualan nasional.  
-   Hal ini menandakan potensi pasar yang signifikan di wilayah tersebut.
+   🔗 [Lihat Stacked Bar Chart Top 10 Transaksi per Provinsi](https://lookerstudio.google.com/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/2M)  
+   🔗 [Lihat Stacked Bar Chart Top 10 Net Sales per Provinsi](https://lookerstudio.google.com/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/3M)  
 
 3. **⭐ Perbandingan Rating Cabang dan Rating Transaksi**  
-   Cabang dengan rating tinggi tidak selalu diikuti oleh rating transaksi yang baik.  
-   Diperlukan peningkatan kualitas pelayanan dan pengalaman pelanggan secara menyeluruh.
+   Cabang dengan rating tinggi tidak selalu memiliki rating transaksi yang baik.  
+   🔗 [Lihat Clustered Bar Chart Top 5 Cabang (Rating Cabang vs Rating Transaksi)](https://lookerstudio.google.com/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/4M)  
 
-> 🔗 Lihat dashboard interaktif: [Kimia Farma Dashboard – Google Looker Studio](https://lookerstudio.google.com/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a)
+4. **🌐 Persebaran Profit dan Penjualan**  
+   Visualisasi geografi untuk total profit dan penjualan per provinsi membantu mengidentifikasi pasar potensial dan area untuk perbaikan.  
+   🔗 [Lihat Geo Chart Total Net Profit per Provinsi](https://lookerstudio.google.com/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/5M)  
+   🔗 [Lihat Pie Chart Persebaran Net Sales, Net Profit & Total Transaksi per Provinsi](https://lookerstudio.google.com/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/6M)  
+
+> Semua link mengarah ke **dashboard interaktif Kimia Farma** di Google Looker Studio, memungkinkan pembaca untuk langsung melihat visualisasi data yang lengkap.
 
 ---
 
