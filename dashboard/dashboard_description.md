@@ -1,59 +1,73 @@
 # 📊 Dashboard Description – Kimia Farma Performance Analytics
 
-Dashboard ini dibuat menggunakan **Google Looker Studio** untuk menampilkan analisis kinerja bisnis Kimia Farma periode **2020–2023**.  
-Visualisasi ini membantu memahami tren penjualan, distribusi cabang, dan kepuasan pelanggan dengan cara interaktif.
+Dokumen ini menjelaskan setiap visualisasi yang ada di dashboard **Kimia Farma Performance Analytics** beserta insight utama yang bisa diambil.
 
 ---
 
-## 1️⃣ Line Chart – Net Sales 2020–2023
-Menampilkan tren **total Net Sales** Kimia Farma dari tahun ke tahun.  
-🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
+## 1. Line Chart – Net Sales 2020–2023
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)
 
-**Insight:** Penjualan relatif stagnan dari 2020–2023. Strategi pemasaran dan operasional yang lebih efektif dibutuhkan untuk meningkatkan pertumbuhan tahunan.
+**Deskripsi:**  
+Menampilkan tren penjualan bersih Kimia Farma dari tahun 2020 hingga 2023. Chart ini menggunakan data total **Net Sales** setiap tahun.
 
----
-
-## 2️⃣ Stacked Bar Chart – Top 10 Total Transaksi per Provinsi
-Menampilkan **Top 10 provinsi** berdasarkan jumlah transaksi.  
-🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
-
-**Insight:** Provinsi **Jawa Barat** mencatat jumlah transaksi tertinggi, menunjukkan pasar yang besar dan potensial.
+**Insight:**  
+Tren penjualan relatif stagnan. Strategi pemasaran dan operasional yang lebih efektif diperlukan untuk meningkatkan pertumbuhan tahunan.
 
 ---
 
-## 3️⃣ Stacked Bar Chart – Top 10 Net Sales per Provinsi
-Menampilkan **Top 10 provinsi** berdasarkan total **Net Sales**.  
-🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
+## 2. Stacked Bar Chart – Top 10 Total Transaksi per Provinsi
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)
 
-**Insight:** Penjualan terbesar juga berasal dari Jawa Barat, memperkuat potensi pasar utama perusahaan.
+**Deskripsi:**  
+Visualisasi ini menunjukkan **10 provinsi dengan jumlah transaksi tertinggi**. Setiap bar mewakili total transaksi per provinsi selama 2020–2023.
 
----
-
-## 4️⃣ Clustered Bar Chart – Top 5 Cabang (Rating Cabang vs Rating Transaksi)
-Membandingkan **rating cabang** dengan **rating transaksi** untuk 5 cabang terbaik.  
-🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
-
-**Insight:** Rating cabang tinggi tidak selalu sejalan dengan rating transaksi. Perlu peningkatan kualitas pelayanan untuk pengalaman pelanggan optimal.
+**Insight:**  
+Provinsi **Jawa Barat** memiliki jumlah transaksi tertinggi, menunjukkan potensi pasar besar.
 
 ---
 
-## 5️⃣ Geo Chart – Total Net Profit per Provinsi
-Menampilkan persebaran **total Net Profit** di seluruh provinsi.  
-🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_ctoovwmoxd)  
+## 3. Stacked Bar Chart – Top 10 Net Sales per Provinsi
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)
 
-**Insight:** Geo Chart memudahkan identifikasi provinsi dengan profit tinggi dan area yang memerlukan perhatian lebih.
+**Deskripsi:**  
+Menampilkan **10 provinsi dengan Net Sales tertinggi**. Data ini membantu memahami kontribusi penjualan tiap wilayah terhadap total pendapatan nasional.
 
----
-
-## 6️⃣ Pie Chart – Persebaran Net Sales, Net Profit & Total Transaksi per Provinsi
-Menampilkan distribusi **Net Sales, Net Profit, dan Total Transaksi** dalam bentuk persentase per provinsi.  
-🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_wwtklrxpxd)  
-
-**Insight:** Memberikan gambaran kontribusi masing-masing provinsi terhadap penjualan dan profit secara keseluruhan.
+**Insight:**  
+Provinsi Jawa Barat mendominasi penjualan, menegaskan kontribusi signifikan di revenue.
 
 ---
 
-## ⚡ Fitur Interaktif
-- Gunakan **filter dan kontrol** di dashboard untuk menyesuaikan data berdasarkan provinsi, cabang, atau tahun.  
-- Semua visualisasi dihubungkan langsung dengan **BigQuery**, memastikan data selalu up-to-date.  
-- Dashboard dirancang untuk **eksplorasi cepat dan insight yang actionable**, mendukung pengambilan keputusan berbasis data.
+## 4. Clustered Bar Chart – Top 5 Cabang (Rating Cabang vs Rating Transaksi)
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)
+
+**Deskripsi:**  
+Visualisasi membandingkan **5 cabang dengan rating cabang tertinggi** terhadap **rating transaksi terendah**.
+
+**Insight:**  
+Cabang dengan rating tinggi tidak selalu memiliki rating transaksi yang seimbang. Diperlukan peningkatan kualitas pelayanan dan pengalaman pelanggan.
+
+---
+
+## 5. Geo Chart – Total Net Profit per Provinsi
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_ctoovwmoxd)
+
+**Deskripsi:**  
+Peta geografis yang menunjukkan **distribusi Net Profit** di seluruh provinsi. Memudahkan identifikasi wilayah dengan profit tinggi.
+
+**Insight:**  
+Membantu perusahaan fokus pada wilayah dengan profit tinggi dan mengoptimalkan area dengan performa rendah.
+
+---
+
+## 6. Pie Chart – Persebaran Net Sales, Net Profit & Total Transaksi per Provinsi
+🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_wwtklrxpxd)
+
+**Deskripsi:**  
+Diagram lingkaran ini memperlihatkan **kontribusi masing-masing provinsi** terhadap Net Sales, Net Profit, dan Total Transaksi.
+
+**Insight:**  
+Memberikan gambaran proporsi kontribusi tiap provinsi terhadap kinerja keseluruhan Kimia Farma.
+
+---
+
+> Semua visualisasi di dashboard dibuat menggunakan **Google Looker Studio** dan data diolah dari **BigQuery**. Dashboard ini bersifat interaktif, memungkinkan filter berdasarkan tahun dan provinsi untuk analisis lebih mendalam.
