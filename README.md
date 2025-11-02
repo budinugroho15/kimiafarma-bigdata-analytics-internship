@@ -47,7 +47,6 @@ Dataset mencakup informasi transaksi, produk, pelanggan, dan rating cabang dari 
 │  
 ├── 📂 [documentation/](./documentation)  
 │   ├── [insight_summary.md](./documentation/insight_summary.md)  
-│   ├── [project_steps.txt](./documentation/project_steps.txt)  
 │   └── [presentation_link.txt](./documentation/presentation_link.txt)  
 │  
 ├── [README.md](./README.md)  
