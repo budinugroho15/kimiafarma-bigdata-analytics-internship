@@ -1,34 +1,34 @@
 # 📊 Kimia Farma Performance Analytics
 
 This project is part of the **Project-Based Internship: Big Data Analytics at Kimia Farma** through **Rakamin Academy**.  
-The goal of this project is to analyze Kimia Farma's business performance based on transaction data from **2020–2023** using **BigQuery** and **Google Looker Studio**.
+The objective of this project is to analyze Kimia Farma's business performance based on transaction data from **2020–2023** using **BigQuery** and **Google Looker Studio**.
 
 ---
 
 ## 🏢 About Kimia Farma
 
-**Kimia Farma** is Indonesia's first pharmaceutical company, established by the Dutch East Indies government in 1817 under the name *NV Chemicalien Handle Rathkamp & Co.*  
+**Kimia Farma** is the first pharmaceutical company in Indonesia, established by the Dutch East Indies Government in 1817 under the name *NV Chemicalien Handle Rathkamp & Co.*  
 In 1958, the Indonesian government nationalized Dutch pharmaceutical companies into **Perusahaan Negara Farmasi Bhinneka Kimia Farma**.  
-On August 16, 1971, its legal status was changed to **PT Kimia Farma (Persero)**, which remains a key player in Indonesia's pharmaceutical industry today.
+On August 16, 1971, the legal entity was changed to **PT Kimia Farma (Persero)**, which remains one of the key players in the national pharmaceutical industry.
 
 ---
 
-## 🎯 Project Overview
+## 🎯 Project Description
 
-This project focuses on analyzing Kimia Farma's business data to evaluate sales performance, branch distribution, and customer satisfaction based on transaction data stored in **Google BigQuery**.  
-The dataset includes transaction records, products, customers, and branch ratings from **2020 to 2023**.  
+This project focuses on analyzing Kimia Farma's business data to assess sales performance, branch distribution, and customer satisfaction based on transaction data available in **Google BigQuery**.  
+The dataset includes transaction, product, customer, and branch rating information from **2020 to 2023**.
 
 ### Problem Statement
 1. What is the sales trend of Kimia Farma from 2020–2023?  
 2. Which provinces contribute the most to sales?  
-3. Is there a correlation between branch rating and transaction rating?
+3. Is there a correlation between branch ratings and transaction ratings?
 
 ---
 
-## 🧩 Tools & Technologies
+## 🧩 Tools & Technology
 - **BigQuery** – for data processing and SQL queries  
-- **Google Looker Studio** – for data visualization and dashboards  
-- **Excel** – for initial data validation and aggregation  
+- **Google Looker Studio** – for visualization and dashboarding  
+- **Excel** – for data validation and initial aggregation  
 
 ---
 
@@ -56,46 +56,46 @@ The dataset includes transaction records, products, customers, and branch rating
 ## 📊 Dashboard
 
 All visualizations are created using **Google Looker Studio**.  
-For a detailed explanation of each chart and related insights, see:  
+For a complete explanation of each chart along with insights, refer to the following file:  
 📄 [Dashboard Description & Interactive Links](./dashboard/dashboard_description.md)
 
-**Files in the dashboard folder:**
-- `dashboard_complete.pdf` – Full PDF version of the dashboard  
-- `dashboard_link.txt` – Google Looker Studio link  
-- `dashboard_description.md` – Interactive explanations of charts and key insights
+**Files available in the dashboard folder:**
+- `dashboard_complete.pdf` – Complete PDF version of the dashboard  
+- `dashboard_link.txt` – Link to Google Looker Studio  
+- `dashboard_description.md` – Interactive explanation of each chart and key insights
 
 ---
 
 ## 📈 Key Insights
 
-From this project, several key insights were identified:
+The project provides several key insights as follows:
 
 1. **Sales Trend**  
    Sales performance from 2020 to 2023 shows a relatively stagnant trend.  
-   More effective marketing and operational strategies are needed to drive year-over-year growth.
+   More effective marketing and operational strategies are required to increase annual growth.
 
 2. **Sales Distribution by Province**  
-   **West Java** recorded the highest sales with the largest contribution to Kimia Farma's total revenue.  
-   This indicates a strong market potential in the region.
+   **West Java** records the highest sales contribution to Kimia Farma's total national revenue.  
+   This indicates strong market potential in the region.
 
-3. **Branch Rating vs Transaction Rating**  
-   Branches with high ratings do not always have corresponding transaction ratings.  
-   Improving service quality and customer experience is essential to enhance overall customer satisfaction.
+3. **Branch Rating vs. Transaction Rating**  
+   High-rated branches do not always have proportional transaction ratings.  
+   Improving service quality and customer experience is necessary to enhance overall satisfaction.
 
 ---
 
-## 👨‍💻 About the Author
+## 👨‍💻 About the Creator
 
-I am **Dwi Budi Setyonugroho**, a graduate in Geological Engineering with a strong interest in **Data Analytics**.  
-I am currently completing the **IBM Data Analyst Professional Certificate** on Coursera and hold an annual subscription to continuously enhance my skills in this field.  
+I am **Dwi Budi Setyonugroho**, a graduate of Geological Engineering with a strong interest in **Data Analytics**.  
+I am currently completing the **IBM Data Analyst Professional Certificate** on Coursera and have an annual subscription to continuously enhance my skills in this field.
 
-**Technical Skills:**
+I am proficient in:
 - **Advanced Excel**  
 - **SQL** (JOINs, Aggregate, Subqueries, CTE)  
 - **Python** (Pandas, NumPy, Seaborn, Matplotlib)  
-- **Dashboarding Tools**: Google Looker Studio, IBM Cognos Analytics, Power BI  
+- **Dashboarding Tools**: Google Looker Studio, IBM Cognos Analytics, Power BI
 
-I have a **strong passion for the Data Analyst role**, analyzing data deeply and transforming it into actionable insights to support data-driven decision-making.
+I have a **strong passion for working as a Data Analyst**, analyzing data in depth and transforming it into actionable insights to support data-driven decision-making.
 
 ---
 
