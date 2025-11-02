@@ -36,6 +36,13 @@ There is still a gap between branch reputation and customer transaction experien
 
 ---
 
+## 🏆 4. Regional Performance Optimization
+This analysis provides a **proportional view of each province's contribution** to Net Sales, Net Profit, and Total Transactions.  
+💡 *Insight:*  
+It allows the company to focus on **high-profit regions** while identifying and optimizing **underperforming areas** to enhance overall business performance.  
+
+---
+
 ✨ **Conclusion:**  
 These data highlight the importance of comprehensive performance analysis to identify areas for improvement.  
 With a data-driven strategy, Kimia Farma can continuously enhance business performance and customer satisfaction.
