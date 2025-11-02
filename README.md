@@ -38,10 +38,7 @@ Dataset mencakup informasi transaksi, produk, pelanggan, dan rating cabang dari 
 📁 **kimia-farma-performance-analytics/**  
 │  
 ├── 📂 [sql/](./sql)  
-│   ├── [01_import_dataset.sql](./sql/01_import_dataset.sql)  
-│   ├── [02_create_kf_analisa.sql](./sql/02_create_kf_analisa.sql)  
-│   ├── [03_data_check_validation.sql](./sql/03_data_check_validation.sql)  
-│   └── [04_additional_queries.sql](./sql/04_additional_queries.sql)  
+│   └── [pembuatan_tabel_kf_analisa.sql](./sql/pembuatan_tabel_kf_analisa.sql)  
 │  
 ├── 📂 [dashboard/](./dashboard)  
 │   ├── [looker_dashboard_screenshot.png](./dashboard/looker_dashboard_screenshot.png)  
