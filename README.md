@@ -28,6 +28,7 @@ Dataset mencakup informasi transaksi, produk, pelanggan, dan rating cabang dari 
 ## 🧩 Tools & Teknologi
 - **BigQuery** – untuk pengolahan data dan SQL query  
 - **Google Looker Studio** – untuk visualisasi dan dashboard  
+- **Python (Pandas, NumPy, Seaborn, Matplotlib)** – untuk eksplorasi data tambahan  
 - **Excel** – untuk validasi data dan agregasi awal  
 
 ---
@@ -47,27 +48,21 @@ Dataset mencakup informasi transaksi, produk, pelanggan, dan rating cabang dari 
 │   ### Link Visualisasi Interaktif
 │   1. **Line Chart – Net Sales 2020–2023**  
 │      🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
-│      Insight: Tren penjualan relatif stagnan; strategi peningkatan pertumbuhan tahunan diperlukan.  
 │
 │   2. **Stacked Bar Chart – Top 10 Total Transaksi per Provinsi**  
 │      🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
-│      Insight: Provinsi Jawa Barat memiliki jumlah transaksi tertinggi.  
 │
 │   3. **Stacked Bar Chart – Top 10 Net Sales per Provinsi**  
 │      🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
-│      Insight: Penjualan terbesar juga berasal dari Jawa Barat.  
 │
 │   4. **Clustered Bar Chart – Top 5 Cabang (Rating Cabang vs Rating Transaksi)**  
 │      🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
-│      Insight: Rating cabang tinggi tidak selalu sejalan dengan rating transaksi.  
 │
 │   5. **Geo Chart – Total Net Profit per Provinsi**  
 │      🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_ctoovwmoxd)  
-│      Insight: Mempermudah identifikasi provinsi dengan profit tinggi dan area yang perlu perhatian.  
 │
 │   6. **Pie Chart – Persebaran Net Sales, Net Profit & Total Transaksi per Provinsi**  
 │      🔗 [Lihat Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_wwtklrxpxd)  
-│      Insight: Memberikan gambaran kontribusi masing-masing provinsi terhadap penjualan dan profit secara keseluruhan.  
 │  
 ├── 📂 [documentation/](./documentation)  
 │   ├── [insight_summary.md](./documentation/insight_summary.md) – Ringkasan insight analisis data.  
@@ -80,40 +75,46 @@ Dataset mencakup informasi transaksi, produk, pelanggan, dan rating cabang dari 
 
 ## 📈 Insight Utama
 
-Beberapa insight penting dari proyek ini antara lain:
+Dari proyek ini, diperoleh beberapa insight penting yang dapat dijadikan dasar strategi bisnis:
 
-1. **📉 Tren Penjualan (2020–2023)**  
-   Kinerja penjualan Kimia Farma menunjukkan tren yang relatif stagnan.  
-   🔗 [Lihat Line Chart Net Sales 2020–2023](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
+1. **Tren Penjualan Kimia Farma (2020–2023)**  
+   🔗 [Lihat Line Chart Net Sales](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
+   Insight: Kinerja penjualan relatif stagnan dari tahun ke tahun. Diperlukan strategi pemasaran dan operasional yang lebih efektif.
 
-2. **📊 Distribusi Penjualan Berdasarkan Provinsi**  
-   Provinsi **Jawa Barat** memiliki kontribusi tertinggi terhadap total penjualan nasional.  
-   🔗 [Lihat Stacked Bar Chart Top 10 Transaksi per Provinsi](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
-   🔗 [Lihat Stacked Bar Chart Top 10 Net Sales per Provinsi](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
+2. **Top 10 Total Transaksi per Provinsi**  
+   🔗 [Lihat Stacked Bar Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_7rtlbfboxd)  
+   Insight: Provinsi **Jawa Barat** memiliki jumlah transaksi tertinggi, menunjukkan potensi pasar besar.
 
-3. **⭐ Perbandingan Rating Cabang dan Rating Transaksi**  
-   Cabang dengan rating tinggi tidak selalu memiliki rating transaksi yang baik.  
-   🔗 [Lihat Clustered Bar Chart Top 5 Cabang (Rating Cabang vs Rating Transaksi)](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
+3. **Top 10 Net Sales per Provinsi**  
+   🔗 [Lihat Stacked Bar Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
+   Insight: Penjualan terbesar juga berasal dari Jawa Barat, menegaskan kontribusi signifikan provinsi ini.
 
-4. **🌐 Persebaran Profit dan Penjualan**  
-   Visualisasi geografi untuk total profit dan penjualan per provinsi membantu mengidentifikasi pasar potensial dan area untuk perbaikan.  
-   🔗 [Lihat Geo Chart Total Net Profit per Provinsi](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_ctoovwmoxd)  
-   🔗 [Lihat Pie Chart Persebaran Net Sales, Net Profit & Total Transaksi per Provinsi](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_wwtklrxpxd)  
+4. **Top 5 Cabang (Rating Cabang vs Rating Transaksi)**  
+   🔗 [Lihat Clustered Bar Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_o4rokakoxd)  
+   Insight: Cabang dengan rating tinggi tidak selalu memiliki rating transaksi yang seimbang; perlu peningkatan kualitas pelayanan.
+
+5. **Persebaran Total Net Profit per Provinsi**  
+   🔗 [Lihat Geo Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_ctoovwmoxd)  
+   Insight: Membantu identifikasi provinsi dengan profit tinggi dan area yang perlu perhatian khusus.
+
+6. **Persebaran Net Sales, Net Profit & Total Transaksi per Provinsi**  
+   🔗 [Lihat Pie Chart](https://lookerstudio.google.com/u/0/reporting/710bd973-5ac3-4a4f-96cb-120be24e592a/page/p_wwtklrxpxd)  
+   Insight: Memberikan gambaran kontribusi masing-masing provinsi terhadap penjualan, profit, dan total transaksi.
 
 ---
 
 ## 👨‍💻 Tentang Pembuat
 
-Saya **Dwi Budi Setyonugroho**, lulusan S1 Teknik Geologi yang memiliki ketertarikan kuat di bidang **Data Analytics**.  
-Saat ini saya sedang menyelesaikan **IBM Data Analyst Professional Certificate** di Coursera dan memiliki langganan tahunan untuk terus memperdalam keahlian di bidang ini.  
+Saya **Dwi Budi Setyonugroho**, lulusan S1 Teknik Geologi dengan ketertarikan kuat di bidang **Data Analytics**.  
+Saat ini sedang menyelesaikan **IBM Data Analyst Professional Certificate** di Coursera dengan langganan tahunan untuk memperdalam keahlian.
 
-Saya menguasai:
-- **Advanced Excel**
-- **SQL** (JOINs, Aggregate, Subqueries, CTE)
-- **Python** (Pandas, NumPy, Seaborn, Matplotlib)
-- **Dashboarding Tools**: Google Looker Studio, IBM Cognos Analytics, Power BI
+Keahlian:
+- **Advanced Excel**  
+- **SQL** (JOINs, Aggregate, Subqueries, CTE)  
+- **Python** (Pandas, NumPy, Seaborn, Matplotlib)  
+- **Dashboarding Tools**: Google Looker Studio, IBM Cognos Analytics, Power BI  
 
-Saya memiliki passion yang kuat untuk berkarir di **peran Data Analyst**, dengan fokus mengubah data menjadi insight yang actionable dan mendukung pengambilan keputusan berbasis analisis.
+Saya memiliki passion yang kuat di **peran Data Analyst**, berfokus pada transformasi data menjadi insight yang actionable dan mendukung pengambilan keputusan strategis.
 
 ---
 
