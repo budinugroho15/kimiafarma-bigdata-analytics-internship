@@ -1,100 +1,83 @@
-# Kimia Farma Business Performance Analytics (2020–2023)
+# 💊 Kimia Farma Performance Analytics (2020–2023)
 
-Proyek ini merupakan bagian dari program Project-Based Internship di Rakamin Academy, dengan fokus pada analisis kinerja bisnis Kimia Farma selama periode tahun 2020 hingga 2023.  
-Tujuan utamanya adalah mengevaluasi performa penjualan, profit, serta kepuasan pelanggan melalui analisis data menggunakan **Google BigQuery** dan visualisasi di **Google Looker Studio**.
-
----
-
-## 🎯 Tujuan Proyek
-- Mengimpor dataset transaksi, produk, inventori, dan kantor cabang ke dalam BigQuery.  
-- Menggabungkan seluruh data menjadi satu tabel analisa utama (`kf_analisa`).  
-- Melakukan analisis performa bisnis (penjualan, laba, rating, dan cabang).  
-- Mendesain dashboard interaktif untuk menampilkan hasil analisis.
+Proyek ini merupakan bagian dari **Project-Based Internship** di bawah program **Big Data Analytics – Rakamin x Kimia Farma**.  
+Fokus utama proyek ini adalah melakukan analisis kinerja bisnis **Kimia Farma** selama periode **2020–2023** menggunakan **Google BigQuery** dan **Google Looker Studio**.
 
 ---
 
-## 📂 Dataset yang Digunakan
-Berikut adalah daftar dataset yang digunakan dalam proyek ini:
-- `kf_final_transaction.csv`  
-- `kf_inventory.csv`  
-- `kf_kantor_cabang.csv`  
-- `kf_product.csv`
-
-Keempat dataset diimpor ke dalam **dataset BigQuery bernama `kimia_farma`**, di dalam proyek `Rakamin_KF_Analytics`.
+## 🧭 Tujuan Proyek
+Proyek ini bertujuan untuk:
+- Menganalisis tren kinerja bisnis Kimia Farma dari tahun ke tahun.  
+- Mengidentifikasi cabang dengan performa terbaik dan terendah.  
+- Menyajikan data dalam bentuk **dashboard interaktif** untuk mendukung pengambilan keputusan strategis berbasis data.
 
 ---
 
-## 🧮 Tabel Analisa (kf_analisa)
-Tabel utama hasil agregasi berisi kolom:
-- `transaction_id`  
-- `date`  
-- `branch_id`, `branch_name`, `kota`, `provinsi`, `rating_cabang`  
-- `customer_name`  
-- `product_id`, `product_name`, `actual_price`, `discount_percentage`  
-- `persentase_gross_laba`  
-- `nett_sales`, `nett_profit`  
-- `rating_transaksi`
+## 🧩 Dataset yang Digunakan
+Empat dataset utama diimpor ke dalam **Google BigQuery**:
+1. `kf_final_transaction.csv`  
+2. `kf_inventory.csv`  
+3. `kf_kantor_cabang.csv`  
+4. `kf_product.csv`  
 
-### Aturan Persentase Laba:
-| Harga Produk | Laba (%) |
-|---------------|-----------|
-| ≤ Rp 50.000 | 10% |
-| > Rp 50.000–100.000 | 15% |
-| > Rp 100.000–300.000 | 20% |
-| > Rp 300.000–500.000 | 25% |
-| > Rp 500.000 | 30% |
+Semua dataset digabung dan dianalisis untuk menghasilkan tabel utama:  
+**`kimia_farma.kf_analisa`**
 
 ---
 
-## 🧠 Tools & Teknologi
-- **Google Cloud Platform (BigQuery)** – untuk penyimpanan dan analisis data.  
-- **Google Looker Studio** – untuk visualisasi dan dashboard interaktif.  
-- **GitHub** – untuk dokumentasi dan penyimpanan kode SQL.  
+## ⚙️ Tools & Teknologi
+| Tools | Fungsi |
+|-------|--------|
+| **Google BigQuery** | ETL dan agregasi data |
+| **Google Looker Studio** | Visualisasi dan dashboard interaktif |
+| **GitHub** | Dokumentasi dan version control |
+| **SQL (BigQuery Syntax)** | Pengolahan dan analisis data |
 
 ---
 
-## 📊 Dashboard Looker Studio
-Dashboard menampilkan analisis utama berikut:
-- Ringkasan performa bisnis Kimia Farma tahun 2020–2023  
-- Perbandingan pendapatan dari tahun ke tahun  
-- Top 10 cabang berdasarkan total transaksi  
-- Top 10 cabang berdasarkan nett sales  
-- Top 5 cabang dengan rating cabang tinggi tapi rating transaksi rendah  
-- Peta Indonesia yang menampilkan total profit per provinsi  
-- Insight tambahan berdasarkan hasil eksplorasi data  
-
-📎 *Link Dashboard:* (tambahkan nanti setelah selesai membuat di Looker Studio)
+## 🗂️ Struktur Repository
 
 ---
 
-## 📜 Dokumentasi SQL
-Seluruh syntax BigQuery disimpan pada folder `/sql` di repository ini.  
-File utama: `create_kf_analisa.sql`  
-Setiap langkah diberi komentar agar mudah dipahami.
+## 📊 Hasil Akhir
+Dashboard analisis kinerja bisnis Kimia Farma menampilkan:
+- Tren penjualan tahun 2020–2023  
+- Top 10 provinsi berdasarkan total transaksi dan *nett sales*  
+- Top 5 cabang dengan rating tinggi namun rating transaksi rendah  
+- Geo Map Indonesia berdasarkan total profit per provinsi  
+
+📍 *Dashboard dibuat di Google Looker Studio dan terhubung langsung ke tabel analisa di BigQuery.*
 
 ---
 
-## 👤 Pembuat Proyek
-**Nama:** Dwi Budi Setyonugroho  
-**Peran:** Big Data Analytics Intern – Kimia Farma  
-**Platform:** Rakamin Academy  
+## 💡 Insight Singkat
+Beberapa temuan utama dari proyek ini:
+- **Tren penjualan stagnan (2020–2023)** → perlu strategi pemasaran baru.  
+- **Provinsi Jawa Barat** memiliki kontribusi penjualan tertinggi.  
+- **Rating cabang vs rating transaksi** tidak selalu sejalan → peningkatan kualitas layanan dibutuhkan.
+
+Selengkapnya: [📘 Insight Summary](./documentation/insight_summary.md)
 
 ---
 
-## 📎 Tautan Tambahan
-- 🔗 [Template Final PPT](http://bit.ly/template-final-task-kimia-farma-bda)  
-- 🔗 [Google Looker Studio](https://lookerstudio.google.com/)  
-- 🔗 [Google BigQuery Console](https://console.cloud.google.com/bigquery)
+## 👨‍💻 Tentang Pengembang
+**Dwi Budi Setyonugroho**  
+Big Data Analytics Intern | Data Enthusiast  
+
+🎓 Lulusan **S1 Teknik Geologi** dengan passion di bidang **data analytics**.  
+📘 Sedang menyelesaikan **IBM Data Analyst Professional Certificate (Coursera)**.  
+💼 Berpengalaman dalam:  
+`SQL` • `Python (Pandas, NumPy, Matplotlib, Seaborn)` • `Google Looker Studio` • `Excel`  
+
+🔗 **LinkedIn:** [linkedin.com/in/dwibudisetyonugroho](https://linkedin.com/in/dwibudisetyonugroho)  
+🔗 **Portfolio GitHub:** [github.com/budinugroho15](https://github.com/budinugroho15)
 
 ---
 
-## 🧩 Deskripsi Singkat
-Big Data Analytics Project untuk menganalisis performa bisnis Kimia Farma periode 2020–2023 menggunakan **BigQuery** dan **Looker Studio**.  
-Fokus utama proyek ini adalah menggabungkan data transaksi, produk, dan cabang untuk menghasilkan insight yang relevan bagi pengambilan keputusan bisnis.
+## 📝 Lisensi
+Proyek ini dibuat untuk keperluan pembelajaran dalam program **Rakamin x Kimia Farma Big Data Analytics Internship**.  
+Konten bersifat publik untuk tujuan edukasi dan referensi profesional.
 
 ---
 
-## 📬 Kontak
-Jika ingin berdiskusi atau kolaborasi:
-📧 **Email:** setyonugrohodwibudi@gmail.com  
-🌍 **Location:** Pasuruan, Jawa Timur, Indonesia
+⭐ **Jangan lupa beri bintang (★)** jika repository ini bermanfaat untuk kamu!
