@@ -70,4 +70,4 @@ Memberikan gambaran proporsi kontribusi tiap provinsi terhadap kinerja keseluruh
 
 ---
 
-> Semua visualisasi di dashboard dibuat menggunakan **Google Looker Studio** dan data diolah dari **BigQuery**. Dashboard ini bersifat interaktif, memungkinkan filter berdasarkan tahun dan provinsi untuk analisis lebih mendalam.
+> Semua visualisasi di dashboard dibuat menggunakan **Google Looker Studio** dan data diolah dari **BigQuery**. Dashboard ini bersifat interaktif, memungkinkan filter berdasarkan tahun untuk analisis lebih mendalam.
