@@ -67,6 +67,26 @@ For detailed chart explanations and insights, refer to:
 
 ---
 
+## 📚 Documentation
+
+The **Documentation** folder contains all supporting materials and deliverables that complement the analytical dashboard and report.
+
+**Files included:**
+- [`insight_summary.md`](./documentation/insight_summary.md) – Summary of analytical findings and insights.
+- [`presentation_link.txt`](./documentation/presentation_link.txt) – Google Drive link to the project presentation file.
+- [`FinalTask_KimiaFarma_BDA_Dwi Budi Setyonugroho.pdf`](./documentation/FinalTask_KimiaFarma_BDA_Dwi%20Budi%20Setyonugroho.pdf) – Final project report in PDF format summarizing methodology, analysis, and results.
+
+---
+
+## 🧩 SQL
+
+The **SQL** folder contains the main query script used to process and transform Kimia Farma’s business data in **Google BigQuery**.
+
+**File included:**
+- [`pembuatan_tabel_kf_analisa.sql`](./sql/pembuatan_tabel_kf_analisa.sql) – Complete SQL script for creating and analyzing the `kf_analisa` table, including data preparation, joins, and aggregation logic.
+
+---
+
 ## 📈 Key Insights
 
 1. **Sales Trend (2020–2023)**  
