@@ -45,9 +45,9 @@ The dataset includes transaction, product, customer, and branch rating data from
 │   └── [dashboard_description.md](./dashboard/dashboard_description.md)  
 │  
 ├── 📂 [documentation/](./documentation)  
-│   ├── [FinalTask_KimiaFarma_BDA_Dwi Budi Setyonugroho.pdf](./documentation/FinalTask_KimiaFarma_BDA_Dwi Budi Setyonugroho.pdf)  
 │   ├── [insight_summary.md](./documentation/insight_summary.md)  
-│   └── [presentation_link.txt](./documentation/presentation_link.txt)  
+│   ├── [presentation_link.txt](./documentation/presentation_link.txt)  
+│   └── [FinalTask_KimiaFarma_BDA_Dwi Budi Setyonugroho.pdf](./documentation/FinalTask_KimiaFarma_BDA_Dwi%20Budi%20Setyonugroho.pdf)  
 │  
 ├── [README.md](./README.md)  
 └── [LICENSE](./LICENSE)
