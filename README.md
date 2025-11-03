@@ -1,34 +1,34 @@
 # 📊 Kimia Farma Performance Analytics
 
-This project is part of the **Project-Based Internship: Big Data Analytics at Kimia Farma** through **Rakamin Academy**.  
-The objective of this project is to analyze Kimia Farma's business performance based on transaction data from **2020–2023** using **BigQuery** and **Google Looker Studio**.
+This project is part of the **Project-Based Internship: Big Data Analytics at Kimia Farma**, conducted through **Rakamin Academy**.  
+The goal of this project is to analyze **Kimia Farma’s business performance (2020–2023)** using **Google BigQuery** and **Google Looker Studio** to generate data-driven insights that support strategic decision-making.
 
 ---
 
 ## 🏢 About Kimia Farma
 
-**Kimia Farma** is the first pharmaceutical company in Indonesia, established by the Dutch East Indies Government in 1817 under the name *NV Chemicalien Handle Rathkamp & Co.*  
-In 1958, the Indonesian government nationalized Dutch pharmaceutical companies into **Perusahaan Negara Farmasi Bhinneka Kimia Farma**.  
-On August 16, 1971, the legal entity was changed to **PT Kimia Farma (Persero)**, which remains one of the key players in the national pharmaceutical industry.
+**Kimia Farma** is Indonesia’s first pharmaceutical company, founded by the Dutch East Indies Government in 1817 under the name *NV Chemicalien Handle Rathkamp & Co.*  
+In 1958, the Indonesian government nationalized several Dutch pharmaceutical companies into **Perusahaan Negara Farmasi Bhinneka Kimia Farma**.  
+On August 16, 1971, it became **PT Kimia Farma (Persero)**, which continues to be a major player in Indonesia’s pharmaceutical industry.
 
 ---
 
 ## 🎯 Project Description
 
-This project focuses on analyzing Kimia Farma's business data to assess sales performance, branch distribution, and customer satisfaction based on transaction data available in **Google BigQuery**.  
-The dataset includes transaction, product, customer, and branch rating information from **2020 to 2023**.
+This project focuses on analyzing Kimia Farma’s transactional data to evaluate sales performance, branch distribution, and customer satisfaction.  
+The dataset includes transaction, product, customer, and branch rating data from **2020 to 2023**, stored and processed in **Google BigQuery**.
 
-### Problem Statement
-1. What is the sales trend of Kimia Farma from 2020–2023?  
-2. Which provinces contribute the most to sales?  
-3. Is there a correlation between branch ratings and transaction ratings?
+### Problem Statements
+1. What are the sales trends of Kimia Farma from 2020–2023?  
+2. Which provinces contribute the most to sales performance?  
+3. Is there a relationship between branch ratings and transaction ratings?
 
 ---
 
-## 🧩 Tools & Technology
-- **BigQuery** – for data processing and SQL queries  
-- **Google Looker Studio** – for visualization and dashboarding  
-- **Excel** – for data validation and initial aggregation  
+## 🧩 Tools & Technologies
+- **Google BigQuery** – Data processing and SQL querying  
+- **Google Looker Studio** – Data visualization and dashboarding  
+- **Microsoft Excel** – Data validation and initial aggregation  
 
 ---
 
@@ -55,50 +55,46 @@ The dataset includes transaction, product, customer, and branch rating informati
 
 ## 📊 Dashboard
 
-All visualizations are created using **Google Looker Studio**.  
-For a complete explanation of each chart along with insights, refer to the following file:  
+All visualizations were built using **Google Looker Studio**.  
+For detailed chart explanations and insights, refer to:  
 📄 [Dashboard Description & Interactive Links](./dashboard/dashboard_description.md)
 
-**Files available in the dashboard folder:**
-- `dashboard_complete.pdf` – Complete PDF version of the dashboard  
-- `dashboard_link.txt` – Link to Google Looker Studio  
-- `dashboard_description.md` – Interactive explanation of each chart and key insights
+**Files in the dashboard folder:**
+- `dashboard_complete.pdf` – Full PDF version of the dashboard  
+- `dashboard_link.txt` – Direct link to the interactive Looker Studio dashboard  
+- `dashboard_description.md` – Detailed description and insights for each chart  
 
 ---
 
 ## 📈 Key Insights
 
-The project provides several key insights as follows:
-
-1. **Sales Trend**  
-   Sales performance from 2020 to 2023 shows a relatively stagnant trend.  
-   More effective marketing and operational strategies are required to increase annual growth.
+1. **Sales Trend (2020–2023)**  
+   Overall sales remained relatively stable across the observed years.  
+   Strategic marketing initiatives and operational improvements are needed to drive sustainable growth.  
 
 2. **Sales Distribution by Province**  
-   **West Java** records the highest sales contribution to Kimia Farma's total national revenue.  
-   This indicates strong market potential in the region.
+   **West Java** contributed the highest proportion of sales to Kimia Farma’s total revenue, indicating significant market potential and customer concentration in the region.  
 
-3. **Branch Rating vs. Transaction Rating**  
-   High-rated branches do not always have proportional transaction ratings.  
-   Improving service quality and customer experience is necessary to enhance overall satisfaction.
+3. **Branch vs. Transaction Ratings**  
+   High branch ratings did not always align with high transaction ratings.  
+   Service quality and customer experience improvements are necessary to enhance overall satisfaction and transaction frequency.
 
 ---
 
-## 👨‍💻 About the Creator
+## 👨‍💻 About the Author
 
-I am **Dwi Budi Setyonugroho**, a graduate of Geological Engineering with a strong interest in **Data Analytics**.  
-I am currently completing the **IBM Data Analyst Professional Certificate** on Coursera and have an annual subscription to continuously enhance my skills in this field.
+I’m **Dwi Budi Setyonugroho**, a **Geological Engineering graduate** with a deep passion for **Data Analytics**.  
+Currently pursuing the **IBM Data Analyst Professional Certificate** on Coursera, I continuously develop analytical and visualization skills to build a strong data-driven career foundation.
 
-I am proficient in:
-- **Advanced Excel**  
-- **SQL** (JOINs, Aggregate, Subqueries, CTE)  
-- **Python** (Pandas, NumPy, Seaborn, Matplotlib)  
-- **Dashboarding Tools**: Google Looker Studio, IBM Cognos Analytics, Power BI
+**Core Skills:**
+- **Data Analysis:** Advanced Excel, SQL (JOINs, Aggregation, Subqueries, CTE)  
+- **Programming:** Python (Pandas, NumPy, Seaborn, Matplotlib)  
+- **Visualization Tools:** Google Looker Studio, IBM Cognos Analytics, Power BI  
 
-I have a **strong passion for working as a Data Analyst**, analyzing data in depth and transforming it into actionable insights to support data-driven decision-making.
+Driven by curiosity and precision, I aim to uncover meaningful patterns from data and transform them into actionable business insights that support strategic decisions.
 
 ---
 
 ## 📜 License
 This project is licensed under the **MIT License**.  
-See [LICENSE](./LICENSE) for more details.
+See [LICENSE](./LICENSE) for more information.
